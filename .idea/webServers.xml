@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f7b4770a-6456-4e58-8cc6-915479a1789a" name="for_interpark" url="">
+        <fileTransfer rootFolder="/home/jun_code/interpark" accessType="SFTP" host="192.168.56.101" port="22" sshConfigId="7db41d7f-19bd-4ff4-aa93-1489d114197c" sshConfig="jun@192.168.56.101:22:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

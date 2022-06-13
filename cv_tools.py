@@ -1,4 +1,6 @@
+import numpy as np
 import cv2
+
 def get_grayscale(image):
     return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 def remove_noise(image):
